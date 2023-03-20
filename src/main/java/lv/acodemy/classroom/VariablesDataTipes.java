@@ -1,8 +1,8 @@
-package lv.acodemy.classroom2;
+package lv.acodemy.classroom;
 
 import java.util.Arrays;
 
-public class VariablesDataTypes {
+public class VariablesDataTipes {
     public static void main(String[] args) {
 
         byte myCurrentAge = 36;
@@ -85,3 +85,5 @@ public class VariablesDataTypes {
         }
     }
 }
+
+

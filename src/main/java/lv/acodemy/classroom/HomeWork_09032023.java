@@ -1,4 +1,4 @@
-package lv.acodemy;
+package lv.acodemy.classroom;
 
 import java.util.Arrays;
 
@@ -47,38 +47,4 @@ public class HomeWork_09032023 {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
