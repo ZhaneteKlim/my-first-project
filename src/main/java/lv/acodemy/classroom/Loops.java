@@ -46,9 +46,9 @@ public class Loops {
         String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
         //System.out.println(days[2]);
         // System.out.println("=======//======");
-        //   for (int i = 0; i < days.length; i++) {
-        //      System.out.println(days[i]);
-        // }
+        for (int i = 0; i < days.length; i++) {
+            System.out.println(days[i]);
+        }
         //     if (!days[i].equals("Thursday")) {
         //     } else {
         //         System.out.println(days[i]);
@@ -65,23 +65,23 @@ public class Loops {
         System.out.println("=======//======");
 
         //   String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
-        //   for (int i = 0; i < days.length; i++) {
-        //    if (days[i].equals("Friday")) {
-        //    } else {
-        //        System.out.println(days[i]);
-
-        //"Tuesday" do not print:
-        //for (int i = 0; i < days.length; i++) {
-        //    if (days[i].equals("Tuesday")) {
-        //    } else {
-        //        System.out.println(days[i]);
-        //    }
-        // ! = NO (with ! don't print, false, without ! = true )
-        // for (int i = 0; i < days.length; i++) {
-        //     if (!days[i].equals("Tuesday")) {
-        //         System.out.println(days[i]);
-        //     }
-        //&& - true  || - or
+        for (int i = 0; i < days.length; i++) {
+            if (days[i].equals("Friday")) {
+            } else {
+                System.out.println(days[i]);
+            }
+            //"Tuesday" do not print:
+            //for (int i = 0; i < days.length; i++) {
+            //    if (days[i].equals("Tuesday")) {
+            //    } else {
+            //        System.out.println(days[i]);
+            //    }
+            // ! = NO (with ! don't print, false, without ! = true )
+            // for (int i = 0; i < days.length; i++) {
+            //     if (!days[i].equals("Tuesday")) {
+            //         System.out.println(days[i]);
+            //     }
+            //&& - true  || - or
 
 //do, do while
       /*
@@ -97,34 +97,36 @@ public class Loops {
 //} while (i <= 10);
 // он будет печатать единичку
 // пока память не закончитсяб и чтобы так не было нужно ограничить счётчик
-        int i = 0;
-        do {
-            System.out.println(i);
-            i++;
-        } while (i <= 10);
-        // WHILE. Разница в том что в первом варианте он сперва выподнит, потом проверит
-        // а во втором сперва проверит потом выполнит
-        System.out.println("=======//======");
-        int x = 0;
-        while (x <= 10) {
-            System.out.println(x);
-            x++;
-        }
-        System.out.println("=======//======");
+     //       int i = 0;
+       //     do {
+         //       System.out.println(i);
+           //     i++;
+            //} while (i <= 10);
+            // WHILE. Разница в том что в первом варианте он сперва выподнит, потом проверит
+            // а во втором сперва проверит потом выполнит
+            System.out.println("=======//======");
+            int x = 0;
+            while (x <= 10) {
+                System.out.println(x);
+                x++;
+            }
+            System.out.println("=======//======");
 
-        int[] arrayOfNum = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int[] emptyArray = new int[arrayOfNum.length];
-        // move numbers from arrayOfNum to emptyArray using loop
-        // emptyArray[0] = arrayOfNum[0]
-        for (int j = 0; j < arrayOfNum.length; j++) {
-            emptyArray[j] = arrayOfNum[j];
-            System.out.println(Arrays.toString(emptyArray));
-            //если последнюю } ввести после команды соут,
-            // то распечатает весь процесс того, как набивается сяётчик
-        }
-        System.out.println("=======//======");
-        // JAVA METHODS
+            int[] arrayOfNum = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            int[] emptyArray = new int[arrayOfNum.length];
+            // move numbers from arrayOfNum to emptyArray using loop
+            // emptyArray[0] = arrayOfNum[0]
+            for (int j = 0; j < arrayOfNum.length; j++) {
+                emptyArray[j] = arrayOfNum[j];
+                System.out.println(Arrays.toString(emptyArray));
+                //если последнюю } ввести после команды соут,
+                // то распечатает весь процесс того, как набивается сяётчик
+            }
+            System.out.println("=======//======");
+            // JAVA METHODS
 
+        }
     }
 }
+
 
