@@ -11,14 +11,15 @@ public class HomeWork_09032023 {
         System.out.println("                             ");
 
 
-        String[] text = {" Sometimes", " ", "it", " ", "pays", " ", "to", " ", "stay", " ", "in", " ", "bed", " ", "on", " ", "Monday", ",", " ", "rather", " ", "than", " ", "spending", " ", "the", " ", "rest", " ", "of", " ", "the", " ", "week", " ", "debugging", " ", "Monday’s", " ", "code", "." };
+        String[] text = {"Sometimes", " ", "it", " ", "pays", " ", "to", " ", "stay", " ", "in", " ", "bed", " ", "on", " ", "Monday", ",", " ", "rather", " ", "than", " ", "spending", " ", "the", " ", "rest", " ", "of", " ", "the", " ", "week", " ", "debugging", " ", "Monday’s", " ", "code", "." };
         System.out.print(text.length);
-        for (int x = 0; x < text.length; x++) {
-            System.out.print(text[x]);
-        }
+
         System.out.println("                                 ");
         System.out.println("                                 ");
 
+        for (int x = 0; x < text.length; x++) {
+         System.out.print(text[x]);
+        }
         int x = -8;
         if (x > 0) {
             System.out.println("The number is positive.");
