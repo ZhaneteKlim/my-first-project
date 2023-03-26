@@ -1,5 +1,7 @@
 package lv.acodemy.classroom;
 
+import lombok.*;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -7,26 +9,27 @@ import lombok.ToString;
 
 @Getter
 // it means that for all fields will be getter
-@NoArgsConstructor
+// @NoArgsConstructor
 @ToString
 // to create empty constructor
 
 public class Cat {
     private String name;
     private String color;
-@Setter    private int age;
-//So Getter wil work for all class, but Setter just for this fields
-@Setter    private double weight;
+    private int age;
+    //So Getter wil work for all class, but Setter just for this fields
+    private double weight;
     private String breed;
     private String gender;
     private boolean hasFur;
 
     // 5 единиц еды умещается в кота:
-    //private final int max_energy = 5;
+    private final int max_energy = 5;
     private int energy = 5;
 
-   // public int getEnergy() {
-   //     return energy;}
+    public int getEnergy() {
+        return energy;
+    }
 // generate > getter and setter чтобы из приватного значения
     // сделать и публичное тоже
     // а чтобы выделить несколько разных строк зажимаем ctrl
@@ -39,40 +42,43 @@ public class Cat {
         this.name = name;
     }
 
-    //public String getName() {
-      //  return name;}
+    public String getName() {
+        return name;
+    }
 
-    //public String getColor() {
-      //  return color;
-    //}
+    public String getColor() {
+        return color;
+    }
 
-    //public String getBreed() {
-      //  return breed;
-    //}
+    public String getBreed() {
+        return breed;
+    }
 
-    //public String getGender() {
-      //  return gender;
-    //}
+    public String getGender() {
+        return gender;
+    }
+
+
 
     public boolean isHasFur() {
         return hasFur;
     }
 
-    //public double getWeight() {
-   //     return weight;
-    //}
+    public double getWeight() {
+        return weight;
+    }
 
- //   public void setWeight(double weight) {
-  //      this.weight = weight;
-    //}
+   public void setWeight(double weight) {
+        this.weight = weight;
+    }
 
-   // public int getAge() {
-   //     return age;
-    //}
+    public int getAge() {
+        return age;
+    }
 
-    //public void setAge(int age) {
-     //   this.age = age;
-    //}
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public void speak() {
         System.out.println("Miau!");
@@ -107,23 +113,23 @@ public class Cat {
         this.hasFur = hasFur;
     }
 
-  //  public Cat() {
-    //}
-
-//    @Override
-//    public String toString() {
-//        return "Cat{" +
-//                "name='" + name + '\'' +
-//                ", color='" + color + '\'' +
-//                ", age=" + age +
-//                ", weight=" + weight +
-//                ", breed='" + breed + '\'' +
-//                ", gender='" + gender + '\'' +
-//                ", hasFur=" + hasFur +
-//                '}';
-        // правая кнопка мыши generate > to string
-
-
-
+    public Cat() {
     }
+
+  @Override
+    public String toString() {
+      return "Cat{" +
+              "name='" + name + '\'' +
+              ", color='" + color + '\'' +
+              ", age=" + age +
+              ", weight=" + weight +
+              ", breed='" + breed + '\'' +
+              ", gender='" + gender + '\'' +
+              ", hasFur=" + hasFur +
+              '}';
+      // правая кнопка мыши generate > to string
+
+
+  }
+}
 

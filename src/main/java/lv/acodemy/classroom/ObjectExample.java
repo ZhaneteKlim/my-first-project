@@ -61,7 +61,7 @@ barsik.setWeight(6);
         vasja.feed();
         vasja.feed();
         vasja.feed();
-        System.out.println(vasja.getEnergy());
+        System.out.println(vasja.getEnergy() );
 
         // update method feed, so we can feed our cat;
         // every feed method call incremence energy for 1
