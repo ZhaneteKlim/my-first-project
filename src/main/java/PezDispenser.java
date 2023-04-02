@@ -65,14 +65,14 @@ public class PezDispenser {
         }
    }
    public int fillTillTheEnd(int MAX_CANDIES , int actualAmountOfCandies ) {return MAX_CANDIES - actualAmountOfCandies; }
-    
-        //TODO: текущее количество конфет минус candyCount
-        //TODO: если текущее кол-во конфет меньше столько-то обрабатываем так, меньше столько - так
-        //TODO: текущее кол-во конфет не больше 12
-        //TODO: мы не можем съесть больше чем есть 12 конфет
-        //TODO: You have now this amount of candies;
-        //TODO: I will add: ...
-        //TODO: I've added %s amount of candies and it is full now
+
+        //текущее количество конфет минус candyCount
+        //если текущее кол-во конфет меньше столько-то обрабатываем так, меньше столько - так
+        //текущее кол-во конфет не больше 12
+        //мы не можем съесть больше чем есть 12 конфет
+        //You have now this amount of candies;
+        //I will add: ...
+        //I've added %s amount of candies and it is full now
 
 
     @Override

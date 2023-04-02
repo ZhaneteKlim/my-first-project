@@ -1,6 +1,6 @@
 public class MainClass_PezDispenser {
     public String toString() {
-        return "MainClass_PezDispenser{}";
+        return "MainClass_PezDispenser{ }";
     }
 
     public static void main(String[] args) {
