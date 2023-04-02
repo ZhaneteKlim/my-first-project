@@ -2,20 +2,20 @@ package lv.acodemy.classroom;
 
 public class ObjectExample {
     public static void main(String[] args) {
-      //  Cat barsik = new Cat();
-      //  System.out.println(barsik.name);
-      //  barsik.name = "barsik";
-      //  System.out.println(barsik.name);
-      //  barsik.name = "barsik";
-      //  barsik.color = "ginger";
-      //  barsik.age = 5;
-      //  barsik.weight = 5;
-      //  barsik.breed = "none";
-      //  barsik.gender = "male";
-      //  barsik.hasFur = true;
-      //  barsik.speak();
-      //  barsik.feed();
-      //  System.out.println(barsik);
+        //  Cat barsik = new Cat();
+        //  System.out.println(barsik.name);
+        //  barsik.name = "barsik";
+        //  System.out.println(barsik.name);
+        //  barsik.name = "barsik";
+        //  barsik.color = "ginger";
+        //  barsik.age = 5;
+        //  barsik.weight = 5;
+        //  barsik.breed = "none";
+        //  barsik.gender = "male";
+        //  barsik.hasFur = true;
+        //  barsik.speak();
+        //  barsik.feed();
+        //  System.out.println(barsik);
         // после того как мы поделили доступы на паблик и приват
         // всё стало красным, следующие действия для возврата значений:
         Cat barsik = new Cat("Barsik");
@@ -26,7 +26,7 @@ public class ObjectExample {
         System.out.println(barsik.getAge());
         //Create getters and setters for : weight and age;
         //For all others fields create getter method
-barsik.setWeight(6);
+        barsik.setWeight(6);
         System.out.println(barsik.getWeight());
         System.out.println(barsik);
 
@@ -39,7 +39,7 @@ barsik.setWeight(6);
         //Создаём нового кота по параметрам.
         // Чтобы посмотреть параметры, нужно в скобки после Сат счёлкнуть Ctrl+p
 
-        Cat vasja = new Cat("Vasja","ginger", "none","male", true );
+        Cat vasja = new Cat("Vasja", "ginger", "none", "male", true);
         vasja.setWeight(5.5);
         vasja.setAge(3);
         System.out.println(vasja);
@@ -61,7 +61,7 @@ barsik.setWeight(6);
         vasja.feed();
         vasja.feed();
         vasja.feed();
-        System.out.println(vasja.getEnergy() );
+        System.out.println(vasja.getEnergy());
 
         // update method feed, so we can feed our cat;
         // every feed method call incremence energy for 1

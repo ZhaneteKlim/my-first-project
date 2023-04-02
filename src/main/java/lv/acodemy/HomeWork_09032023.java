@@ -6,6 +6,11 @@ public class HomeWork_09032023 {
     public static void main(String[] args) {
         String[] countries = {"Norway", "Sweden", "Finland", "Estonia", "Latvia", "Lithuania", "Poland", "Germany", "Denmark", "Netherlands" };
         System.out.println(Arrays.toString(countries));
+        for (int i = 0; i < countries.length; i++) {
+            if(countries[i].equals("Latvia")) {
+                System.out.println("Latvia is my motherland");
+            }
+        }
         System.out.println(countries[4] + " " + "is my motherland");
 
         System.out.println("                             ");
@@ -31,22 +36,16 @@ public class HomeWork_09032023 {
 
         System.out.println("                                 ");
 
-        double salary = 40000.00;
-
-        for (int i = 0; i < 10000; i++) {
+        double salary = 30000.00;
 
             if (salary <= 5000) {
                 System.out.println("Your salary is low.");
-                return;
-            } else if (salary <= 10000) {
+            } else if (salary > 5000 && salary <= 1000) {
                 System.out.println("Your salary is average.");
-                return;
             } else {
                 System.out.println("Your salary is high.");
-                return;
             }
         }
-    }
 }
 
 
