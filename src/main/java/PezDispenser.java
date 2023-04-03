@@ -7,15 +7,12 @@ public class PezDispenser {
     private int candyCount = 12;
 
 
-
     public PezDispenser(String color, String pezName, String seriesName) {
         this.color = color;
         this.pezName = pezName;
         this.seriesName = seriesName;
         this.candyCount = MAX_CANDIES;
 
-
-        //TODO: MAX_CANDIES = START AMOUNT OF CANDIES
     }
 
     public String getColor() {
@@ -37,35 +34,53 @@ public class PezDispenser {
 
     public void eatCandy() {
 
-        //TODO:
     }
 
-   public void putCandies() {
-        if (candyCount==12) {
+    public void putCandies() {
+        if (candyCount == 12) {
             System.out.println("Naruto is is full");
         } else {
             candyCount++;
             System.out.println("there is a place inside");
         }
-   }
-   public int eatCandies () {
-       if (candyCount <= 0) {
-           System.out.println("it is empty");
-       } else {
-           System.out.println("was tasty");
-           candyCount = candyCount - 1;
-       }
-       return candyCount;
-   }
-   public int actualAmountOfCandies = 8; {
-        if (actualAmountOfCandies < 12 ) {
+    }
+
+    public int eatCandies() {
+        if (candyCount <= 0) {
+            System.out.println("it is empty");
+        } else {
+            System.out.println("was tasty");
+            candyCount = candyCount - 1;
+        }
+        return candyCount;
+    }
+
+    public int actualAmountOfCandies = 8;
+    {
+        if (actualAmountOfCandies < 12) {
             System.out.println("fill it till the and");
         } else {
             System.out.println("it is full");
         }
-   }
-   public int fillTillTheEnd(int MAX_CANDIES , int actualAmountOfCandies ) {return MAX_CANDIES - actualAmountOfCandies; }
+    }
 
+
+    int fillTillTheEnd(int MAX_CANDIES, int actualAmountOfCandies) {
+        return MAX_CANDIES - actualAmountOfCandies;
+    }
+
+
+  // int ToFill (int actualAmountOfCandies, int anyAmount) {
+    //  return actualAmountOfCandies + anyAmount;
+    //}
+
+
+ boolean toFill(int actualAmountOfCandies, int anyAmount, int MAX_CANDIES) {
+   return actualAmountOfCandies + anyAmount <= MAX_CANDIES;}
+
+       // int existedAmount = 8;
+       // int overallAmount = anyAmount + existedAmount;
+       // int result = toFill + getActualAmountOfCandies <= MAX_CANDIES;
         //текущее количество конфет минус candyCount
         //если текущее кол-во конфет меньше столько-то обрабатываем так, меньше столько - так
         //текущее кол-во конфет не больше 12

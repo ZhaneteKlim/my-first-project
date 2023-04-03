@@ -32,10 +32,11 @@ public class MainClass_PezDispenser {
         naruto.eatCandies();
         System.out.println(naruto.getCandyCount());
 
+        System.out.printf("To make Naruto full of candies we need to put %s candies inside \n", naruto.fillTillTheEnd(12, 8));
+
+        System.out.println(naruto.toFill(7, 5, 12));
 
 
-
-       // naruto.fill();
 
     }
 }
