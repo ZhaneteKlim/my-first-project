@@ -78,17 +78,6 @@ public class PezDispenser {
  boolean toFill(int actualAmountOfCandies, int anyAmount, int MAX_CANDIES) {
    return actualAmountOfCandies + anyAmount <= MAX_CANDIES;}
 
-       // int existedAmount = 8;
-       // int overallAmount = anyAmount + existedAmount;
-       // int result = toFill + getActualAmountOfCandies <= MAX_CANDIES;
-        //текущее количество конфет минус candyCount
-        //если текущее кол-во конфет меньше столько-то обрабатываем так, меньше столько - так
-        //текущее кол-во конфет не больше 12
-        //мы не можем съесть больше чем есть 12 конфет
-        //You have now this amount of candies;
-        //I will add: ...
-        //I've added %s amount of candies and it is full now
-
 
     @Override
     public String toString() {

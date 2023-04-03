@@ -6,8 +6,7 @@ public class MainClass_PezDispenser {
     public static void main(String[] args) {
     PezDispenser naruto = new PezDispenser("orange", "Naruto", "Studio Pierrot");
 
-
-        //TODO:
+    
         System.out.printf("This dispenser name is %s", naruto.getPezName());
         System.out.printf(" created by %s %n", naruto.getSeriesName());
 
